@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+html {
+    font-family: TheSaB5, 'Trebuchet MS', Arial, Helvetica, sans-serif!important;
+}
+
+.wrapper-stats{
+  width: 200px;
+  background: grey;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.stats{
+  padding: 40px;
+}
+
+#peopleModul{
+  float: left;
+  margin: auto;
+  width: 100%;
+}
+
+.btn-add-person{
+  background: #47a8ff;
+  width: 80px;
+  padding: 5px;
+  margin: 0px 5px;
+  float: left;
+}
+
+.input-text-person{
+  float: left;
+}
+
+.wrapper-people{
+  width: 100%;
+  float: left;
+}
+
+.person{
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  width: 24%;
+  background: #83eabb;
+}
+
+.header-people{
+  margin: auto;
+  width: 100px;
+}
+
+.wrapper-add-person{
+  width: 100%;
+  margin: auto;
+}
+
+.btn-delete-person{
+  float: right;
+}

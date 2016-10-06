@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Revealing Module Pattern</title>
+    <link rel="shortcut icon" type="image/png" href="https://twitchemotes.com/favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+
+    <div id="statsModul">
+      <script type="text/template" id="stats-template">
+        <div class="wrapper-stats">
+            <div class="stats">Stats: <span>{{zahl}}</span></div>
+        </div>
+        </script>
+    </div>
+
+    <div id="peopleModul">
+        <h1 class="header-people">People</h1>
+        <div class="wrapper-add-person">
+            <input class="input-text-person" type="text">
+            <div class="btn-add-person">add Person</div>
+        </div>
+        <div class="wrapper-people">
+            <script type="text/template" id="people-template">
+                <div class="person">
+                    <span>{{name}}</span>
+                    <span class="btn-delete-person">
+                      <i class="ion-close-circled"></i>
+                    </span>
+                </div>
+            </script>
+        </div>
+    </div>
+
+
+    <!-- js vendor -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- js custom -->
+    <script src="js/module/pubsub.js"></script>
+    <script src="js/module/people.js"></script>
+    <script src="js/module/stats.js"></script>
+
+</body>
+
+</html>
